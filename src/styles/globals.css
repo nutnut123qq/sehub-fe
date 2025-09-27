@@ -72,5 +72,12 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-roboto {
+    font-family: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
   }
 }
